@@ -41,6 +41,9 @@ import { SidebarMenuComponent } from './layout/sidebar-menu.component';
 import { StudentsComponent } from '@app/students/students.component';
 import { CreateStudentDialogComponent } from './students/create-student/create-student-dialog.component';
 import { EditStudentDialogComponent } from './students/edit-student/edit-student-dialog.component';
+import { CollegesComponent } from '@app/colleges/colleges.component';
+import { CreateCollegeDialogComponent } from './colleges/create-college/create-college-dialog.component';
+import { EditCollegeDialogComponent } from './colleges/edit-college/edit-college-dialog.component';
 
 @NgModule({
     declarations: [
@@ -75,6 +78,10 @@ import { EditStudentDialogComponent } from './students/edit-student/edit-student
         ,StudentsComponent
         ,CreateStudentDialogComponent
         ,EditStudentDialogComponent
+        //College
+        ,CollegesComponent
+        ,CreateCollegeDialogComponent
+        ,EditCollegeDialogComponent
        
     ],
     imports: [
