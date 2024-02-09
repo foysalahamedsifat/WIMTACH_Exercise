@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <VersionPrefix>1.0.0.0</VersionPrefix>
     <TargetFramework>net7.0</TargetFramework>
@@ -28,6 +28,5 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
     <PackageReference Include="Abp.AspNetCore" Version="8.4.0" />
     <PackageReference Include="Abp.ZeroCore" Version="8.4.0" />
-    <PackageReference Include="Abp.AspNetCore.SignalR" Version="8.4.0" />
   </ItemGroup>
 </Project>
