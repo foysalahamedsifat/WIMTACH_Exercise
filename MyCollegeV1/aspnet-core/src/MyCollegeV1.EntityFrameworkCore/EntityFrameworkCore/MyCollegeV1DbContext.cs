@@ -14,5 +14,13 @@ namespace MyCollegeV1.EntityFrameworkCore
             : base(options)
         {
         }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            base.OnModelCreating(modelBuilder);
+            modelBuilder.Entity<Abp.Localization.ApplicationLanguageText>()
+                .Property(p => p.Value)
+                .HasMaxLength(100);
+        }
     }
 }
