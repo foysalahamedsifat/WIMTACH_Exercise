@@ -56,6 +56,7 @@ namespace MyCollegeV1.Students
             student.ProgramName = input.ProgramName;
             student.DoB = input.DoB;
             student.IsActive = input.IsActive;
+            student.CollegeId = input.CollegeId;
             Repository.Insert(student);
         }
     }

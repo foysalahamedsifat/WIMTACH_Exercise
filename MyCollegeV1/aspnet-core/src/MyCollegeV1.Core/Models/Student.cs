@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace MyCollegeV1.Models
 {
@@ -26,6 +27,10 @@ namespace MyCollegeV1.Models
         public string DoB { get; set; }
 
         public bool IsActive { get; set; }
+
+        [ForeignKey("College")]
+        public int CollegeId { get; set; }
+
 
     }
 }
